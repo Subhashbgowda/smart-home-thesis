@@ -1,0 +1,42 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.env
+dist/
+build/
+.DS_Store
+Data/
+models/
+*.pkl
+*.csvgit add .
+
+Data/
+models/
+*.csv
+*.pkl
+node_modules/
+.venv/
+__pycache__/
+
+# Ignore data and models
+Data/
+models/
+
+# Ignore file types
+*.csv
+*.pkl
+
+# Ignore environments
+node_modules/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+firebase_credentials.json

@@ -1,0 +1,7 @@
+name: occupancy_agent
+author: Subhash
+version: 0.1.0
+license: Apache-2.0
+registry:
+  default:
+    registry_path: "file://C:/Users/Subhash/Desktop/smart_home_project/agents/packages"

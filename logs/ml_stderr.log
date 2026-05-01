@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\Subhash\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\Subhash\AppData\Local\Programs\Python\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Subhash\Desktop\smart_home_project\agents\ml_main_control_agent\ml_main_control_agent.py", line 58, in <module>
+    main(simulate=args.simulate, verbose=args.verbose)
+  File "C:\Users\Subhash\Desktop\smart_home_project\agents\ml_main_control_agent\ml_main_control_agent.py", line 28, in main
+    electricity_skill = ElectricitySkill(csv_file=csv_path)
+  File "C:\Users\Subhash\Desktop\smart_home_project\agents\electricity_agent\skills\consumption_skills.py", line 18, in __init__
+    print(f"\u2705 Loaded CSV from: {self.csv_file}")
+  File "C:\Users\Subhash\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
